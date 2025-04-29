@@ -1,3 +1,4 @@
+#Calculate Voltages, Currents and Resistances using Ohm's Law
 #Define a function that calculates voltage
 def compute_voltage(current, resistance):
     return current * resistance
@@ -62,12 +63,6 @@ def main():
 #main function needs to be called
 if __name__ == "__main__":
     main()
-
-
-
-
-
-
 
 
 
