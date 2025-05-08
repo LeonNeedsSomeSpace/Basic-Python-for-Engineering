@@ -3,14 +3,14 @@
 def compute_voltage(current, resistance):
     return current * resistance
 #Define a function that calculates voltage
-#Resistance cannot equal to 0 here!
+#Resistance cannot equal to 0 here
 def compute_current(voltage, resistance):
     if resistance != 0:
         return voltage / resistance
     else:
         return None
 #Define a function that calculates resistance
-#Current cannot equal to 0 here!
+#Current cannot equal to 0 here as well
 def compute_resistance(voltage, current):
     if current != 0:
         return voltage / current
